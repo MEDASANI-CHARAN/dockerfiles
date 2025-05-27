@@ -1,5 +1,5 @@
 FROM almalinux:9
 RUN dnf install nginx -y
-RUN adduser expense
+# RUN adduser expense
 # USER expense
 CMD [ "sleep", "100" ]
