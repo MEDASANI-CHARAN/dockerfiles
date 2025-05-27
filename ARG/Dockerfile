@@ -1,6 +1,6 @@
 ARG version
 FROM almalinux:${version}
-#RUN cat /etc/*release
+RUN cat /etc/*release
 # ARG COURSE=Docker
 # ARG TRAINER=charan
 # ARG Duration=120HRS
